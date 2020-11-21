@@ -47,7 +47,7 @@ public class XposedEntry implements IXposedHookLoadPackage {
      * 拟脱壳的App包名，对应AndroidManifests.xml里的<manifest package的值
      */
     private static final String[] targetPackages =
-            new String[]{"com.sfysoft.shellingtest", "com.sfysoft.shellingtest2"};
+            new String[]{"com.coolapk.market"};
 
     private static void log(String text) {
         XposedBridge.log(text);
